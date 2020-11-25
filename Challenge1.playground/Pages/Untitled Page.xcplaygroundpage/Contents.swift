@@ -1,5 +1,6 @@
 import UIKit
 
+//Its possible to initialice a Set directly form a String
 
 func challenge1(input: String) -> Bool {
     
