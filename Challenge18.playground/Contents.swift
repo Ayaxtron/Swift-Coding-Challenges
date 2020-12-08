@@ -5,7 +5,7 @@ func challenge18(_ input1: Int, _ input2: Int) -> Int {
     var res = 1
     for _ in 1...input2 {
         res = res * input1
-    }C
+    }
     print(res)
     return res
 }
