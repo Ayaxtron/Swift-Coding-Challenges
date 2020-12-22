@@ -4,6 +4,7 @@ import Foundation
 
 func challenge27(filename: String, linesNum: Int)  {
     let fileURL = Bundle.main.url(forResource: "Test", withExtension: "txt")
+    print(fileURL)
     guard let input = try? String(contentsOf: fileURL!, encoding: String.Encoding.utf8) else { return }
     //guard let input = try? String(contentsOfFile: filename) else { return }
     var lines = input.components(separatedBy: "\n")
